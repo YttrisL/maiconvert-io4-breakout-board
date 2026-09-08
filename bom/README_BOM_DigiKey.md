@@ -13,6 +13,13 @@ ce qui est dessiné aujourd'hui).
 
 Source : netlist générée depuis `maiConvert-IO4-hat.kicad_sch` (kicad-cli 9.0), 2026-09-08.
 
+> **Schéma déjà mis à jour** avec ces pièces (réf. fabricant + n° DigiKey dans les
+> champs des symboles). Nouvelles bibliothèques projet dans `libraries/` :
+> `LED_RGB_Wurth` (symbole + empreinte + STEP Würth) et `SameSky_Switch`
+> (empreinte TS10 + modèle 3D). ERC : 0 erreur, connexions inchangées.
+> **PCB pas encore touchée** — faire *Update PCB from Schematic* pour appliquer
+> les nouvelles empreintes.
+
 ## Comment lancer la commande sur DigiKey
 
 1. Se connecter → **Mes listes** (*My Lists*) → **Créer une liste** → **Importer / Upload**.
@@ -31,7 +38,7 @@ Source : netlist générée depuis `maiConvert-IO4-hat.kicad_sch` (kicad-cli 9.0
 | Qté | Réf. carte | Réf. (MPN) | DigiKey P/N | Description | ~PU |
 |----:|-----------|------------|-------------|-------------|-----|
 | 12 | R22–R33 | `MFR-25FBF52-1K` | `1.00KXBK-ND` | R 1 kΩ **axiale** 1 % 1/4 W THT métal (Yageo) | 0,10 $ |
-| 4 | D1, D2, D21, D22 | `150352M173300` | `732-5088-1-ND` | LED **RGB 6-PLCC / 5050 SMD**, canaux indépendants (Würth) — ⚠️ | 0,52 $ |
+| 4 | D1, D2, D21, D22 | `150352M173300` | `732-11999-1-ND` | LED **RGB 6-PLCC / 5050 SMD**, canaux indépendants (Würth) — ⚠️ | 0,52 $ |
 | 5 | SW1–SW5 | `B3F-1000` | `SW400-ND` | Poussoir tactile 6 mm THT **SPST-NO** (Omron) | 0,40 $ |
 | 16 | SW6–SW21 | `TS10-63-26-BE-250-SMT-TR` | `2223-…-SMT-TRCT-ND` | **Bouton tactile SPST-NC** (normalement fermé, appui = ouverture), CMS (Same Sky TS10) | 0,65 $ |
 | 16 | J4–J19 | `B3B-XH-A` | `455-2248-ND` | Embase JST XH 1×03 verticale THT | 0,13 $ |
@@ -53,11 +60,11 @@ Bien moins en quantité (~7 $ les 16 boutons NC à qty 100).
 - **LED → on garde la SMD** `150352M173300` (6-PLCC, 0,52 $). C'est le seul composant
   SMD restant (4 pièces, se soude très bien au fer). ⚠️ RGB à **canaux indépendants** :
   la carte veut une **anode commune** → relier les 3 anodes ensemble sur la nouvelle
-  empreinte. Le schéma pilote les cathodes R/G/B via R22–R33, l'anode commune va au +.
+  empreinte Würth `LED_RGB_Wurth` (déjà dans le projet ; anodes = broches 2/4/6).
 - **SW6–SW21 → dans la commande** : bouton tactile **SPST-NC** Same Sky
   `TS10-63-26-BE-250-SMT-TR` (~0,65 $, ~0,46 $/100). Appui = ouverture du circuit,
   exactement la fonction voulue. Seul bémol : **CMS** (2 languettes, se soude très
-  bien au fer). Empreinte à créer (corps 6,0 × 3,8 mm).
+  bien au fer). Empreinte `SameSky_Switch:SW_Tactile_SameSky_TS10` créée dans le projet.
 
 > Symboles `#PWR*` (+12V, +5V, GND) et `#FLG*` (PWR_FLAG) : virtuels, aucun achat.
 
@@ -79,7 +86,7 @@ contact **NC momentané** (appui = ouverture du circuit).
 
 | Solution | Modèle | Coût 16× | Action | Empreinte |
 |----------|--------|---------:|--------|-----------|
-| **Retenue** — bouton tactile **SPST-NC** CMS | Same Sky `TS10-63-26-BE-250-SMT-TR` | ~10 $ (0,65 $/pc, 0,46 $ à 100) | momentané, appui = ouverture | CMS 2 languettes, corps 6,0×3,8 mm — à créer |
+| **Retenue** — bouton tactile **SPST-NC** CMS | Same Sky `TS10-63-26-BE-250-SMT-TR` | ~10 $ (0,65 $/pc, 0,46 $ à 100) | momentané, appui = ouverture | `SameSky_Switch` (fournie) |
 | Micro-rupteur SPDT subminiature à plongeur, PC pin **(THT)** | CIT `SM3` (ex. `SM3CQF3501L00`), Omron `D2F` | ~20 $ | momentané | micro-rupteur ~9,5×5×6,5 mm, 3 broches PC |
 | Mini interrupteur à **glissière** SPST | C&K `JS`, Same Sky | ~5–8 $ | **maintenu** (on/off, pas un appui) | slide ~3 broches |
 | Embase 2 broches + **cavalier** (shunt) | — | ~1 $ | on **retire** le cavalier | header 1×2 2,54 mm |

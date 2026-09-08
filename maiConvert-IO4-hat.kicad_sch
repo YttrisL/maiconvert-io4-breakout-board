@@ -3961,7 +3961,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XL-5050RGBC:XL-5050RGBC"
+		(symbol "LED_RGB_Wurth:150352M173300"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3973,7 +3973,7 @@
 					)
 				)
 			)
-			(property "Value" "XL-5050RGBC"
+			(property "Value" "150352M173300"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -3981,7 +3981,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LED_RGB_PLCC-6_5050:LED_RGB_PLCC-6_5050_XL-5050RGBC"
+			(property "Footprint" "LED_RGB_Wurth:LED_RGB_Wurth_WL-SFTW_150352M173300"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3990,7 +3990,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2843868.pdf"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150352M173300.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3999,7 +3999,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, non-addressable, common anode, 5050 SMD PLCC-6. Pins 4/5/6 (anode) are internally tied together."
+			(property "Description" "RGB LED, 3 independent chips, PLCC-6 3.5x2.8mm SMD (Wurth WL-SFTW). Anodes are NOT internally tied - B+/R+/G+ are joined on the PCB for common-anode use. Pin numbering per Wurth datasheet: 1=B cathode, 2=B anode, 3=R cathode, 4=R anode, 5=G cathode, 6=G anode."
 				(at 0 0 0)
 				(effects
 					(font
@@ -4008,7 +4008,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2843868"
+			(property "Manufacturer" "Wurth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4017,7 +4017,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "XL-5050RGBC_0_1"
+			(property "Mfr. No." "150352M173300"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key" "732-11999-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "150352M173300_0_1"
 				(rectangle
 					(start -3.81 6.35)
 					(end 3.81 -6.35)
@@ -4042,7 +4060,7 @@
 					)
 				)
 			)
-			(symbol "XL-5050RGBC_1_1"
+			(symbol "150352M173300_1_1"
 				(pin passive line
 					(at -6.35 3.81 0)
 					(length 2.54)
@@ -4071,7 +4089,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4089,7 +4107,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4107,7 +4125,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4125,7 +4143,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4143,7 +4161,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18257,7 +18275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XL-5050RGBC:XL-5050RGBC")
+		(lib_id "LED_RGB_Wurth:150352M173300")
 		(at 170.18 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -18282,7 +18300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FabricationParts:LED_RGB_PLCC6_5050_XL5050RGBC"
+		(property "Footprint" "LED_RGB_Wurth:LED_RGB_Wurth_WL-SFTW_150352M173300"
 			(at 170.18 142.24 0)
 			(effects
 				(font
@@ -18291,7 +18309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843868.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150352M173300.pdf"
 			(at 170.18 142.24 0)
 			(effects
 				(font
@@ -18300,7 +18318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, non-addressable, common anode, 5050 SMD PLCC-6. Pins 4/5/6 (anode) are internally tied together."
+		(property "Description" "RGB LED, 3 independent chips, PLCC-6 SMD (Wurth WL-SFTW 150352M173300). B+/R+/G+ joined on the PCB for common-anode use."
 			(at 170.18 142.24 0)
 			(effects
 				(font
@@ -18309,7 +18327,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2843868"
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "150352M173300"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "732-11999-1-ND"
 			(at 170.18 142.24 0)
 			(effects
 				(font
@@ -18371,7 +18407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 243.84 27.178 90)
 			(effects
 				(font
@@ -18390,6 +18426,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 243.84 25.4 0)
 			(effects
 				(font
@@ -18575,7 +18638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -18594,6 +18657,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 120.65 0)
 			(effects
 				(font
@@ -18643,7 +18733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -18662,6 +18752,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 85.09 0)
 			(effects
 				(font
@@ -18711,7 +18828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 180.34 147.828 90)
 			(effects
 				(font
@@ -18730,6 +18847,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 180.34 146.05 0)
 			(effects
 				(font
@@ -18915,7 +19059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.95 147.828 90)
 			(effects
 				(font
@@ -18934,6 +19078,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 107.95 146.05 0)
 			(effects
 				(font
@@ -18983,7 +19154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 30.988 90)
 			(effects
 				(font
@@ -19002,6 +19173,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 102.87 29.21 0)
 			(effects
 				(font
@@ -19051,7 +19249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -19070,6 +19268,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 58.42 0)
 			(effects
 				(font
@@ -19567,7 +19792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -19586,6 +19811,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 111.76 0)
 			(effects
 				(font
@@ -19635,7 +19887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -19654,6 +19906,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -19861,6 +20140,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "B3F-1000"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "SW400-ND"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "521c4ee8-2339-4435-ac3c-73660ee58b73")
 		)
@@ -19975,7 +20281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 180.34 140.208 90)
 			(effects
 				(font
@@ -19994,6 +20300,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -20182,7 +20515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 80.01 0)
 			(effects
 				(font
@@ -20201,6 +20534,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 85.09 0)
 			(effects
 				(font
@@ -20276,6 +20636,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron"
+			(at 194.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "B3F-1000"
+			(at 194.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "SW400-ND"
+			(at 194.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d251a2f-9eaa-4d60-a780-024041e9a709")
 		)
@@ -20317,7 +20704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 62.23 0)
 			(effects
 				(font
@@ -20336,6 +20723,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 67.31 0)
 			(effects
 				(font
@@ -20385,7 +20799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -20404,6 +20818,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -20716,7 +21157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.95 144.018 90)
 			(effects
 				(font
@@ -20735,6 +21176,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 107.95 142.24 0)
 			(effects
 				(font
@@ -20784,7 +21252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 243.84 23.368 90)
 			(effects
 				(font
@@ -20803,6 +21271,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 243.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 243.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 243.84 21.59 0)
 			(effects
 				(font
@@ -20852,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 27.178 90)
 			(effects
 				(font
@@ -20871,6 +21366,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 102.87 25.4 0)
 			(effects
 				(font
@@ -21264,7 +21786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -21283,6 +21805,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 93.98 0)
 			(effects
 				(font
@@ -21332,7 +21881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 53.34 0)
 			(effects
 				(font
@@ -21351,6 +21900,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 58.42 0)
 			(effects
 				(font
@@ -21400,7 +21976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 243.84 30.988 90)
 			(effects
 				(font
@@ -21419,6 +21995,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 243.84 29.21 0)
 			(effects
 				(font
@@ -21468,7 +22071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 62.23 0)
 			(effects
 				(font
@@ -21487,6 +22090,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 67.31 0)
 			(effects
 				(font
@@ -21536,7 +22166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 97.79 0)
 			(effects
 				(font
@@ -21563,6 +22193,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70c9d4ee-3794-4ed2-8b78-31ef57733ddc")
 		)
@@ -21579,7 +22236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XL-5050RGBC:XL-5050RGBC")
+		(lib_id "LED_RGB_Wurth:150352M173300")
 		(at 97.79 142.24 0)
 		(mirror y)
 		(unit 1)
@@ -21604,7 +22261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FabricationParts:LED_RGB_PLCC6_5050_XL5050RGBC"
+		(property "Footprint" "LED_RGB_Wurth:LED_RGB_Wurth_WL-SFTW_150352M173300"
 			(at 97.79 142.24 0)
 			(effects
 				(font
@@ -21613,7 +22270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843868.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150352M173300.pdf"
 			(at 97.79 142.24 0)
 			(effects
 				(font
@@ -21622,7 +22279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, non-addressable, common anode, 5050 SMD PLCC-6. Pins 4/5/6 (anode) are internally tied together."
+		(property "Description" "RGB LED, 3 independent chips, PLCC-6 SMD (Wurth WL-SFTW 150352M173300). B+/R+/G+ joined on the PCB for common-anode use."
 			(at 97.79 142.24 0)
 			(effects
 				(font
@@ -21631,7 +22288,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2843868"
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "150352M173300"
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "732-11999-1-ND"
 			(at 97.79 142.24 0)
 			(effects
 				(font
@@ -21755,7 +22430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XL-5050RGBC:XL-5050RGBC")
+		(lib_id "LED_RGB_Wurth:150352M173300")
 		(at 92.71 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -21780,7 +22455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FabricationParts:LED_RGB_PLCC6_5050_XL5050RGBC"
+		(property "Footprint" "LED_RGB_Wurth:LED_RGB_Wurth_WL-SFTW_150352M173300"
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -21789,7 +22464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843868.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150352M173300.pdf"
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -21798,7 +22473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, non-addressable, common anode, 5050 SMD PLCC-6. Pins 4/5/6 (anode) are internally tied together."
+		(property "Description" "RGB LED, 3 independent chips, PLCC-6 SMD (Wurth WL-SFTW 150352M173300). B+/R+/G+ joined on the PCB for common-anode use."
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -21807,7 +22482,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2843868"
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "150352M173300"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "732-11999-1-ND"
 			(at 92.71 25.4 0)
 			(effects
 				(font
@@ -22015,7 +22708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -22042,6 +22735,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e0884f2-4805-4b9b-a2a7-b5b1f3f8d7e0")
 		)
@@ -22058,7 +22778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "XL-5050RGBC:XL-5050RGBC")
+		(lib_id "LED_RGB_Wurth:150352M173300")
 		(at 233.68 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -22083,7 +22803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FabricationParts:LED_RGB_PLCC6_5050_XL5050RGBC"
+		(property "Footprint" "LED_RGB_Wurth:LED_RGB_Wurth_WL-SFTW_150352M173300"
 			(at 233.68 25.4 0)
 			(effects
 				(font
@@ -22092,7 +22812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843868.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150352M173300.pdf"
 			(at 233.68 25.4 0)
 			(effects
 				(font
@@ -22101,7 +22821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, non-addressable, common anode, 5050 SMD PLCC-6. Pins 4/5/6 (anode) are internally tied together."
+		(property "Description" "RGB LED, 3 independent chips, PLCC-6 SMD (Wurth WL-SFTW 150352M173300). B+/R+/G+ joined on the PCB for common-anode use."
 			(at 233.68 25.4 0)
 			(effects
 				(font
@@ -22110,7 +22830,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2843868"
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 233.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "150352M173300"
+			(at 233.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "732-11999-1-ND"
 			(at 233.68 25.4 0)
 			(effects
 				(font
@@ -22541,6 +23279,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron"
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "B3F-1000"
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "SW400-ND"
+			(at 259.08 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d63dbd97-a3db-4045-a60a-a6993889f3ea")
 		)
@@ -22582,7 +23347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 71.12 0)
 			(effects
 				(font
@@ -22601,6 +23366,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 76.2 0)
 			(effects
 				(font
@@ -23012,6 +23804,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "B3F-1000"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "SW400-ND"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d10fa98-8976-4ea6-9f56-959b3559d589")
 		)
@@ -23262,7 +24081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -23281,6 +24100,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 156.21 111.76 0)
 			(effects
 				(font
@@ -23495,6 +24341,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Omron"
+			(at 259.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "B3F-1000"
+			(at 259.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "SW400-ND"
+			(at 259.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3343df25-1536-488e-b979-16a5a90d1aa6")
 		)
@@ -23609,7 +24482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 180.34 144.018 90)
 			(effects
 				(font
@@ -23628,6 +24501,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 180.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -23798,7 +24698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "SameSky_Switch:SW_Tactile_SameSky_TS10"
 			(at 110.49 71.12 0)
 			(effects
 				(font
@@ -23817,6 +24717,33 @@
 			)
 		)
 		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "TS10-63-26-BE-250-SMT-TR"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "2223-TS10-63-26-BE-250-SMT-TRCT-ND"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -23866,7 +24793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.87 23.368 90)
 			(effects
 				(font
@@ -23885,6 +24812,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 102.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 102.87 21.59 0)
 			(effects
 				(font
@@ -24364,7 +25318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.95 140.208 90)
 			(effects
 				(font
@@ -24383,6 +25337,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No." "MFR-25FBF52-1K"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key" "1.00KXBK-ND"
 			(at 107.95 138.43 0)
 			(effects
 				(font
