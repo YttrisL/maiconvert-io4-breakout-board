@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FabricationParts")(type "KiCad")(uri "${KIPRJMOD}/libraries/FabricationParts.pretty")(options "")(descr ""))
+  (lib (name "LibraryRoot")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
+)
