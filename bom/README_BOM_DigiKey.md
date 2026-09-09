@@ -39,16 +39,16 @@ au panier**. Vérifier les lignes ⚠️.
 | 2 | J1, J3 | `BHR-60-VUA` | `2057-BHR-60-VUA-ND` | Box header IDC 2×30 2,54 mm vert. THT (Adam Tech) | ~1,80 $ |
 | 1 | J2 | `BHR-20-VUA` | `2057-BHR-20-VUA-ND` | Box header IDC 2×10 2,54 mm vert. THT (Adam Tech) | ~0,70 $ |
 | 1 | J22 | `1935161` | `277-1667-ND` | Bornier à vis 2P pas 5,08 mm THT (Phoenix MKDS) | ~1,40 $ |
-| 1 | F1 | `0451015.MRL` | `F2593CT-ND` | Fusible CMS **15 A** très rapide, 65 V, Nano2 451 — protection entrée 12 V ⚠️ | ~3,76 $ |
+| 1 | F1 | `0679L9150-05` | `5923-0679L9150-05CT-ND` | Fusible CMS **15 A** action rapide, 125 V, Nano2/2410 (Bel Fuse, 2ᵉ source du Littelfuse 451) — protection entrée 12 V ⚠️ | ~0,68 $ |
 | 1 | Q1 | `DMP3010LK3-13` | `DMP3010LK3-13DICT-ND` | MOSFET **canal P** −30 V −17 A, TO-252 (DPAK) — anti-inversion « diode idéale » | ~0,70 $ |
 | 1 | D5 | `SMCJ15A-13-F` | `SMCJ15A-FDICT-ND` | TVS **unidir.** 1500 W, 15 V, clamp ~24,4 V, SMC — écrêtage transitoires rail 12 V | ~1,02 $ |
 | 1 | R17 | `RC0805FR-07100KL` | `311-100KCRCT-ND` | R **100 kΩ** 1 % 0805 CMS — pull-down grille de Q1 | 0,02 $ |
 | 16 | — (stock) | `QPC02SXGN-RC` | `S9337-ND` | Cavalier (shunt) 2 pos 2,54 mm or — **pas monté sur cette PCB**, stock pour autres usages | 0,10 $ |
 
-**Total pièces ≈ 22–25 $** à l'unité (dominé par les 2 box headers 2×30 ≈ 3,6 $,
-le fusible 15 A ≈ 3,8 $, les 21 poussoirs ≈ 2,5 $, le bornier Phoenix ≈ 1,4 $ et
-le TVS ≈ 1 $) + ~1,6 $ de shunts en stock. Bien moins en quantité (~9–12 $).
-*(Bloc protection entrée 12 V F1/Q1/D5/R17 ≈ 5,5 $, dominé par le fusible CMS 15 A.)*
+**Total pièces ≈ 19–22 $** à l'unité (dominé par les 2 box headers 2×30 ≈ 3,6 $,
+les 21 poussoirs ≈ 2,5 $, le bornier Phoenix ≈ 1,4 $ et le TVS ≈ 1 $)
++ ~1,6 $ de shunts en stock. Bien moins en quantité (~8–11 $).
+*(Bloc protection entrée 12 V F1/Q1/D5/R17 ≈ 2,4 $.)*
 
 ## ⚠️ Points à vérifier
 
@@ -105,9 +105,10 @@ en continu** avec du cuivre sur les pastilles.
   fonctionnement normal, clampe les pics. Placé après Q1 pour être protégé de
   l'inversion. ⚠️ **Symbole KiCad `1.5SMCxxA` : broches nommées A1/A2 (bug lib),
   la broche 1 est la cathode** (comme le pad 1 de `D_SMC`).
-- **F1 15 A** = pure marge : ne saute qu'en court-circuit franc (charge réelle
-  ~1–2 A). Pouvoir de coupure 50 A @ 65 V / ~300 A @ 32 V → large pour du 12 V.
-  Se dessoude s'il claque (pas de porte-fusible CMS 15 A).
+- **F1 15 A** (Bel Fuse `0679L9150-05`, 2ᵉ source du Littelfuse 451) = pure marge :
+  ne saute qu'en court-circuit franc (charge réelle ~1–2 A). Pouvoir de coupure
+  50 A AC / 300 A DC → large pour du 12 V. Se dessoude s'il claque (pas de
+  porte-fusible CMS 15 A).
 - **Pas de protection surtension continue** (24 V mal branché) : c'est la
   responsabilité de l'utilisateur, assumé. D5 n'encaisse que des transitoires.
 - **Cuivre (fait)** : chemin `J22 → F1 → Q1 → rail` en **zones pleines** par net
@@ -153,8 +154,10 @@ en continu** avec du cuivre sur les pastilles.
   [BHR-20-VUA](https://www.digikey.com/en/products/detail/adam-tech/BHR-20-VUA/2057-BHR-20-VUA-ND/9829308)
 - Bornier : [Phoenix 1935161 / 277-1667-ND](https://www.digikey.com/product-detail/en/phoenix-contact/1935161/277-1667-ND/568614)
 - Protection entrée 12 V :
-  [Littelfuse 0451015.MRL / `F2593CT-ND`](https://www.digikey.com/en/products/detail/littelfuse-inc/0451015-MRL/700834) (fusible 15 A, Nano2 451),
+  [Bel Fuse 0679L9150-05 / `5923-0679L9150-05CT-ND`](https://www.digikey.com/en/products?keywords=0679L9150-05) (fusible 15 A, Nano2/2410, 2ᵉ source du Littelfuse 451 ; [datasheet](https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0679l-series.pdf)),
   [Diodes DMP3010LK3-13 / `DMP3010LK3-13DICT-ND`](https://www.digikey.com/en/products/detail/diodes-incorporated/DMP3010LK3-13/DMP3010LK3-13DICT-ND/3076574) (P-MOSFET TO-252),
   [Diodes SMCJ15A-13-F / `SMCJ15A-FDICT-ND`](https://www.digikey.com/en/products/detail/diodes-incorporated/SMCJ15A-13-F/725041) (TVS unidir. SMC),
   [Yageo RC0805FR-07100KL / `311-100KCRCT-ND`](https://www.digikey.com/en/products/result?keywords=311-100KCRCT-ND) (100 kΩ 0805)
-  — variantes : TVS 600 W `SMBJ15A-FDICT-ND` (SMB) ; fusible 2410 `0453015.MRCT-ND` ; Q1 −40 V `IPD90P04P4L-03`.
+  — variantes : TVS 600 W `SMBJ15A-FDICT-ND` (SMB) ; fusible même empreinte
+  Littelfuse 451 d'origine `0451015.MRL` / `F2593CT-ND` (~3,76 $) ou Bourns
+  `SF-2410F1500T-2` (~0,83 $, tube céramique, coupure 200 A) ; Q1 −40 V `IPD90P04P4L-03`.

@@ -19376,7 +19376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/surface-mount-fuses/nano-2-fuses/451/0451015"
+		(property "Datasheet" "https://belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0679l-series.pdf"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -19385,7 +19385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse 15A fast-acting, 65V, SMD Nano2 (Littelfuse 451). Overcurrent protection on the J22 12V input."
+		(property "Description" "Fuse 15A fast-acting, 125V, SMD Nano2/2410 (Bel Fuse 0679L, second-source for Littelfuse 451). Overcurrent protection on the J22 12V input."
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -19394,7 +19394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "Bel Fuse"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -19403,7 +19403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "0451015.MRL"
+		(property "Mfr. No." "0679L9150-05"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -19412,7 +19412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key" "F2593CT-ND"
+		(property "Digi-Key" "5923-0679L9150-05CT-ND"
 			(at 245.11 53.34 0)
 			(effects
 				(font
