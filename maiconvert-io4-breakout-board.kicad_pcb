@@ -25925,7 +25925,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "REF**"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "c8ea2ccc-c0c0-425b-affc-d2fc49931294")
 			(effects
@@ -25935,9 +25935,9 @@
 				)
 			)
 		)
-		(property "Value" "EVX needs to be connected to 5V for game to detect IO4"
+		(property "Value" "EXV needs to be connected to 5V for game to detect IO4"
 			(at -0.5 15.04 180)
-			(layer "F.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "46932826-99f6-4b1f-899c-fe21a618f9e4")
 			(effects
@@ -27148,7 +27148,7 @@
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
 			(at 0 4.15 180)
-			(layer "B.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "8b4e5a7e-55d6-480e-8c41-032de33e5123")
 			(effects
@@ -27333,7 +27333,7 @@
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
 			(at 0 4.15 180)
-			(layer "B.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "17a29c5c-f4eb-45cd-9b71-1788133c7488")
 			(effects
@@ -27841,7 +27841,7 @@
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
 			(at 0 4.15 180)
-			(layer "B.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "b2e3cd75-79b1-4d58-adb5-899d68f0b792")
 			(effects
@@ -28826,7 +28826,7 @@
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
 			(at 0 4.15 180)
-			(layer "B.SilkS")
+			(layer "Cmts.User")
 			(hide yes)
 			(uuid "fd563d6d-e1e8-4629-b28a-a72652fdc7ef")
 			(effects
