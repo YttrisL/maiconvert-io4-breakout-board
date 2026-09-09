@@ -5,7 +5,7 @@
 	(uuid "d939d66b-6968-4d2a-9316-64dca1dd1a82")
 	(paper "A4")
 	(title_block
-		(title "maiConvert IO4 hat")
+		(title "maiConvert IO4 breakout board")
 		(date "2026-09-01")
 		(rev "1.0")
 	)
@@ -18091,7 +18091,7 @@
 			(uuid "45c82465-1b59-4dc2-8721-f884ca1dc2e5")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR033")
 					(unit 1)
@@ -18284,7 +18284,7 @@
 			(uuid "c1ee7fda-bc5f-40a2-bfe6-04e68e6dfa6e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J33")
 					(unit 1)
@@ -18553,7 +18553,7 @@
 			(uuid "16908c49-e72a-4f45-881b-7ed5b5083177")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J3")
 					(unit 1)
@@ -18715,7 +18715,7 @@
 			(uuid "08a88f2e-97d3-4684-a52b-83f781b6a882")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW20")
 					(unit 1)
@@ -18809,7 +18809,7 @@
 			(uuid "b30b5fc0-907f-4985-a7b3-b2f2eae3d4b6")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R16")
 					(unit 1)
@@ -19006,7 +19006,7 @@
 			(uuid "4e4f12e9-8d59-44a2-8eea-9b3a139353f7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR037")
 					(unit 1)
@@ -19106,7 +19106,7 @@
 			(uuid "363ed13b-e542-42d5-8d17-b2875f8413d7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J17")
 					(unit 1)
@@ -19220,7 +19220,7 @@
 			(uuid "4f07f701-ea22-4b8c-aa16-484004a39c9d")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J23")
 					(unit 1)
@@ -19389,7 +19389,7 @@
 			(uuid "99061ff2-3156-4687-8c3d-14faf675215e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J26")
 					(unit 1)
@@ -19489,7 +19489,7 @@
 			(uuid "6976af81-ebaa-4cc0-9177-4b55180c8064")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J8")
 					(unit 1)
@@ -19662,7 +19662,7 @@
 			(uuid "796159da-247a-4863-b2b3-96fbe779dedc")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "D22")
 					(unit 1)
@@ -19757,7 +19757,7 @@
 			(uuid "bbedfe45-9eea-49f0-b436-827dbdae0fb4")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R26")
 					(unit 1)
@@ -19823,7 +19823,7 @@
 			(uuid "5b72d4c8-0ee4-4b2a-a2d6-a08a31c51a87")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR022")
 					(unit 1)
@@ -19920,7 +19920,7 @@
 			(uuid "f03b0b67-1aea-433d-8277-6a841ac69104")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J28")
 					(unit 1)
@@ -20014,7 +20014,7 @@
 			(uuid "ea4f0119-2dad-4b54-a042-fc98d26e75e7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R14")
 					(unit 1)
@@ -20108,7 +20108,7 @@
 			(uuid "7e430373-41bb-47d0-adb9-2dadb2ff8b85")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R15")
 					(unit 1)
@@ -20203,7 +20203,7 @@
 			(uuid "729588b0-f0a8-40b5-a8c0-df81c131e440")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R33")
 					(unit 1)
@@ -20269,7 +20269,7 @@
 			(uuid "eea427ea-d375-4bda-b86b-f54ca50f2d13")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR06")
 					(unit 1)
@@ -20461,7 +20461,7 @@
 			(uuid "810aa3f9-8aa6-432a-875e-6dc3b5d83bdb")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R30")
 					(unit 1)
@@ -20556,7 +20556,7 @@
 			(uuid "968c1621-18be-45f7-b864-0afe0c433b54")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R24")
 					(unit 1)
@@ -20650,7 +20650,7 @@
 			(uuid "570a14b6-0c30-4a6b-af14-00be8f56885b")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R9")
 					(unit 1)
@@ -20747,7 +20747,7 @@
 			(uuid "f3a20860-c04d-40d2-804e-8c4226a15be0")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J32")
 					(unit 1)
@@ -20844,7 +20844,7 @@
 			(uuid "0994debb-7b02-4b5e-b92c-811433022e31")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J29")
 					(unit 1)
@@ -21179,7 +21179,7 @@
 			(uuid "e2459c7d-18bf-41e0-9c90-c58b38c47f08")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR05")
 					(unit 1)
@@ -21274,7 +21274,7 @@
 			(uuid "718ac766-1178-4af8-bef6-3477c35b3a75")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW7")
 					(unit 1)
@@ -21369,7 +21369,7 @@
 			(uuid "f9332dbf-584f-4b5b-9e24-44bf73119971")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW21")
 					(unit 1)
@@ -21463,7 +21463,7 @@
 			(uuid "6f007ca9-cb82-4378-9182-0bcdeee96e38")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R4")
 					(unit 1)
@@ -21558,7 +21558,7 @@
 			(uuid "d8d6766a-82c8-4d65-a824-ed2b06a096e4")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW17")
 					(unit 1)
@@ -21718,7 +21718,7 @@
 			(uuid "7858421b-4057-4b13-ba2a-1e99da92fa16")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R7")
 					(unit 1)
@@ -21784,7 +21784,7 @@
 			(uuid "84ec1dd2-77d5-4e31-9764-7f25c4056dd4")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR018")
 					(unit 1)
@@ -21879,7 +21879,7 @@
 			(uuid "42ebf98b-b708-4745-9d1f-9df383a0957d")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW4")
 					(unit 1)
@@ -21974,7 +21974,7 @@
 			(uuid "e6a6d185-319a-4311-baff-76aa5a241dd1")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW15")
 					(unit 1)
@@ -22074,7 +22074,7 @@
 			(uuid "31f3c877-6f32-4827-a203-09ef8815b45a")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J9")
 					(unit 1)
@@ -22169,7 +22169,7 @@
 			(uuid "d20b4bc8-1a11-4c40-bafc-515fa3058beb")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R31")
 					(unit 1)
@@ -22335,7 +22335,7 @@
 			(uuid "ebcac327-ec70-424a-ac45-4c145e44680f")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J19")
 					(unit 1)
@@ -22429,7 +22429,7 @@
 			(uuid "829060c5-31bf-4bfd-b0d6-e0c922340bd7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R3")
 					(unit 1)
@@ -22523,7 +22523,7 @@
 			(uuid "1f6e217c-ef00-4d8f-b8a4-6c0999c3b56e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW5")
 					(unit 1)
@@ -22653,7 +22653,7 @@
 			(uuid "fe656e8a-acb5-4e5a-b8b8-7da3f4d6b50c")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR038")
 					(unit 1)
@@ -22719,7 +22719,7 @@
 			(uuid "0ca358f7-935d-439d-9cba-3b86a34d9af0")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR034")
 					(unit 1)
@@ -22785,7 +22785,7 @@
 			(uuid "443fa4f7-f280-4b7d-b3c0-1774611fc5c9")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#FLG03")
 					(unit 1)
@@ -22880,7 +22880,7 @@
 			(uuid "9de3d414-5241-4a3d-90d7-286478a7ba3d")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R29")
 					(unit 1)
@@ -22975,7 +22975,7 @@
 			(uuid "dd6395a9-48c5-47a6-bcda-0a2d35a526dc")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R25")
 					(unit 1)
@@ -23070,7 +23070,7 @@
 			(uuid "31e80ee5-9d93-4378-90fc-25edcf70bd61")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R23")
 					(unit 1)
@@ -23164,7 +23164,7 @@
 			(uuid "b4c5cbd0-d5c3-48dd-a08b-3f69a8d6aab8")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R6")
 					(unit 1)
@@ -23264,7 +23264,7 @@
 			(uuid "ca0dbc21-a3b8-4e11-b2af-5174621108c8")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J10")
 					(unit 1)
@@ -23396,7 +23396,7 @@
 			(uuid "164391b5-bc21-4af6-974c-bb6f3d77298c")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR04")
 					(unit 1)
@@ -23557,7 +23557,7 @@
 			(uuid "f9a71ab3-4b82-476c-86bb-3c4e726467bc")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW19")
 					(unit 1)
@@ -23657,7 +23657,7 @@
 			(uuid "3d95c7e2-db0e-4ddf-bb13-3ccc9207fb15")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J6")
 					(unit 1)
@@ -23752,7 +23752,7 @@
 			(uuid "1b63f31b-46ce-4d8b-a518-611583ea0e3c")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW12")
 					(unit 1)
@@ -23847,7 +23847,7 @@
 			(uuid "1405d648-ce1e-4ea8-ae02-cbec035ca174")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW14")
 					(unit 1)
@@ -23942,7 +23942,7 @@
 			(uuid "386af036-2a8f-4a77-9c88-37aa03fce6d8")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R27")
 					(unit 1)
@@ -24226,7 +24226,7 @@
 			(uuid "2a2e792b-3af6-4dfa-83c8-c92e15e052ae")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW9")
 					(unit 1)
@@ -24333,7 +24333,7 @@
 			(uuid "8a2a7b8e-d110-4903-b846-83f13b2a1ced")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "D21")
 					(unit 1)
@@ -24447,7 +24447,7 @@
 			(uuid "28287dc6-0720-4e3a-b6df-5d1fad29886e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J24")
 					(unit 1)
@@ -24542,7 +24542,7 @@
 			(uuid "cbc6439f-5baf-4525-90f5-a389093a70c5")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW11")
 					(unit 1)
@@ -24637,7 +24637,7 @@
 			(uuid "e08f9ccb-8fb5-4704-bb8c-0e0eba9e215e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW8")
 					(unit 1)
@@ -24731,7 +24731,7 @@
 			(uuid "9e420026-c053-4cc9-ab83-9bf0a7dff4c4")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R10")
 					(unit 1)
@@ -24938,7 +24938,7 @@
 			(uuid "32c54632-265a-4450-937b-f5cdaaf2e0aa")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J16")
 					(unit 1)
@@ -25038,7 +25038,7 @@
 			(uuid "9224e804-79e5-42a0-a002-92e8ea1d4eb3")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J12")
 					(unit 1)
@@ -25145,7 +25145,7 @@
 			(uuid "8a86cf17-6c97-441f-aa82-1ba976953538")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "D2")
 					(unit 1)
@@ -25240,7 +25240,7 @@
 			(uuid "d647381d-70e3-4af6-918c-63b624c0193f")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW16")
 					(unit 1)
@@ -25405,7 +25405,7 @@
 			(uuid "e9a60ce6-97bc-4a1e-bc9d-4ca025cba2ad")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR025")
 					(unit 1)
@@ -25571,7 +25571,7 @@
 			(uuid "d119411b-2834-4ddc-bba8-512dd9b18dfd")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J14")
 					(unit 1)
@@ -25636,7 +25636,7 @@
 			(uuid "10815362-26af-4108-aae7-256dc3203c13")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR032")
 					(unit 1)
@@ -25731,7 +25731,7 @@
 			(uuid "745a99fe-a60f-4729-a2b5-401e0a7ca1f3")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW2")
 					(unit 1)
@@ -25897,7 +25897,7 @@
 			(uuid "2b5e4ad3-3129-46a0-8a1d-ada320ae3c50")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J18")
 					(unit 1)
@@ -25962,7 +25962,7 @@
 			(uuid "2dcc2311-ad81-4248-8e22-484ba031ea56")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR030")
 					(unit 1)
@@ -26027,7 +26027,7 @@
 			(uuid "c1b4cde5-5a72-4030-9b82-f9eabb1beb5c")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR035")
 					(unit 1)
@@ -26187,7 +26187,7 @@
 			(uuid "6fa31846-8346-44b8-8346-029edac1d754")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R2")
 					(unit 1)
@@ -26382,7 +26382,7 @@
 			(uuid "a53dba17-ed82-466d-a5a3-b2b9787a56d0")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J13")
 					(unit 1)
@@ -26479,7 +26479,7 @@
 			(uuid "b869ba79-5224-4b23-87b1-c88d4d48534a")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J20")
 					(unit 1)
@@ -26545,7 +26545,7 @@
 			(uuid "c6c164d6-5e20-4fa2-b173-54ba79102a14")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR020")
 					(unit 1)
@@ -26640,7 +26640,7 @@
 			(uuid "23ee0113-e7ca-41fc-86ab-2eab977109c4")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW13")
 					(unit 1)
@@ -26705,7 +26705,7 @@
 			(uuid "84ce3732-a104-40f8-ad27-1afd26db9e31")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "#PWR026")
 					(unit 1)
@@ -26805,7 +26805,7 @@
 			(uuid "6924d4ef-7baa-4cc0-9d29-1885e4686638")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J7")
 					(unit 1)
@@ -26900,7 +26900,7 @@
 			(uuid "8096222d-d5a6-4262-99b5-738c32a546dd")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW3")
 					(unit 1)
@@ -27000,7 +27000,7 @@
 			(uuid "51716df3-27bd-4c5b-823d-c3a90ef3656d")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J11")
 					(unit 1)
@@ -27095,7 +27095,7 @@
 			(uuid "472a854c-8b35-4a91-8da9-32fe936032f7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R32")
 					(unit 1)
@@ -27189,7 +27189,7 @@
 			(uuid "12322bab-5887-49b3-8c43-c4b29c1dde26")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R8")
 					(unit 1)
@@ -27284,7 +27284,7 @@
 			(uuid "c7eb3522-498c-4718-8a15-0a0fa7455931")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW18")
 					(unit 1)
@@ -27527,7 +27527,7 @@
 			(uuid "d1ead176-2f9c-4afd-8ccb-e032a264850a")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R22")
 					(unit 1)
@@ -27623,7 +27623,7 @@
 			(uuid "4a64d784-8e59-4242-8f49-f175fb011a03")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J21")
 					(unit 1)
@@ -27723,7 +27723,7 @@
 			(uuid "674b9dc0-38e2-4827-8b45-c3003863a705")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J15")
 					(unit 1)
@@ -27817,7 +27817,7 @@
 			(uuid "21443220-55b0-49bc-b5ac-68f0aadd989d")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R13")
 					(unit 1)
@@ -27914,7 +27914,7 @@
 			(uuid "41f49e2b-26da-463e-b110-264e4640b6dc")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J30")
 					(unit 1)
@@ -28008,7 +28008,7 @@
 			(uuid "f8020efe-2ef4-4106-922f-7eeb552285f2")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R11")
 					(unit 1)
@@ -28105,7 +28105,7 @@
 			(uuid "5df2f829-b9ce-491f-945e-709bbea57eca")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J31")
 					(unit 1)
@@ -28207,7 +28207,7 @@
 			(uuid "fe55fd94-019e-428a-bb01-5e0e0d56b4e7")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "J25")
 					(unit 1)
@@ -28302,7 +28302,7 @@
 			(uuid "eb1e624d-e70c-4fed-9d58-fa67f72c733e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "SW10")
 					(unit 1)
@@ -28497,7 +28497,7 @@
 			(uuid "8c75766d-853e-4d49-a91c-76fcacd1704e")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R28")
 					(unit 1)
@@ -28789,7 +28789,7 @@
 			(uuid "8e8604f6-94f4-41ef-afc0-af834534e68b")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R5")
 					(unit 1)
@@ -28883,7 +28883,7 @@
 			(uuid "0ac74ca2-23c1-4233-8a31-bf04dcad84b2")
 		)
 		(instances
-			(project "maiConvert-IO4-hat"
+			(project "maiconvert-io4-breakout-board"
 				(path "/d939d66b-6968-4d2a-9316-64dca1dd1a82"
 					(reference "R12")
 					(unit 1)

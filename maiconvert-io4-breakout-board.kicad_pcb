@@ -34,6 +34,47 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "HASL lead-free")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -277,7 +318,7 @@
 		)
 		(path "/6ec3c178-9ae2-4915-b41f-fda39efa51de")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -664,7 +705,7 @@
 		)
 		(path "/975b3201-eacd-4791-81f2-2182b8e93b56")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.175 -1.125)
@@ -951,7 +992,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fc48b148-9635-4b9e-bbc5-cfaa11db283d")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -1131,7 +1172,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8f423c4e-5a48-4654-a6e3-967a2a4f5d99")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -1311,7 +1352,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e3cf223a-284c-43d7-a860-18d080afdbdf")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -1631,7 +1672,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ee2a8afa-d15c-470b-ad50-430ceb167343")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -1811,7 +1852,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/50c40a66-13f1-4d79-8dda-f0cdfe33258f")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -1991,7 +2032,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b9eb65a1-a1b1-4559-b298-7c1aab3c64e4")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -2171,7 +2212,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3337ab90-76da-4e10-9494-ef43d991af5f")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -2480,7 +2521,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/05885676-3aa4-4e48-b155-f2ff43fefeb6")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -2789,7 +2830,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6c62a44b-79f8-4222-a172-23dcec708ad5")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -2969,7 +3010,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0f9cf59d-486c-4d10-9801-416e26a4bbec")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -3345,7 +3386,7 @@
 		)
 		(path "/edd76c70-c248-482f-864e-88881350a01e")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -3730,7 +3771,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e38c73cd-2eb7-4138-97d9-f83251e41c64")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -4039,7 +4080,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e15731b4-4a1c-4b2d-88c3-9399a5e57a11")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -4220,7 +4261,7 @@
 		)
 		(path "/090a646a-9758-4108-b886-7da9890f8152")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -4606,7 +4647,7 @@
 		)
 		(path "/acc8c394-935e-4bf0-a60d-ce72f41f7d64")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -4991,7 +5032,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2de1c793-6b12-4e6b-9398-4ca074079c0a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -5300,7 +5341,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c10b11c7-8820-4fff-a3c3-b61bcfc7c775")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -5609,7 +5650,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5ed99502-ef4a-401b-beb7-e6d3d0caf25c")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -5789,7 +5830,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/21745186-6784-4f83-850b-0f17e249add8")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -5969,7 +6010,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d8fa017-b179-44ee-9f18-7d4e66f475d5")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -6149,7 +6190,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e4250847-0af0-4f63-8045-50e5b4c701e1")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -6329,7 +6370,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5d7f4292-bc5e-4557-962b-db61a691e82a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -6650,7 +6691,7 @@
 		)
 		(path "/5b1afd88-4729-4dca-a061-563d52ea5b1b")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -7035,7 +7076,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d5acba02-9296-46fa-b945-a23c53ae4907")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -7355,7 +7396,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bd3ac357-e068-44a9-8358-cba82fe96480")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -7675,7 +7716,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ec995701-e2b0-43cc-82af-14443528c3a7")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -8006,7 +8047,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/07b99a4f-1f3b-4eac-bd08-098bc169ccd4")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.68 -0.5)
@@ -9058,7 +9099,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b97191c-1ff1-4b83-ba2c-4714f290df8b")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -9238,7 +9279,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7de82a25-e526-4bd3-9f74-2163ee8b9a89")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -9419,7 +9460,7 @@
 		)
 		(path "/9b66d611-12b4-4951-a78c-460c4c094eb7")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -9804,7 +9845,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/67e214cb-3827-4211-affc-d3257ed140f1")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -10126,7 +10167,7 @@
 		)
 		(path "/9c282cf6-fcb1-43f2-b40b-419c3fd2876a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.175 -1.125)
@@ -10413,7 +10454,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2fb18f44-98d1-4bbd-8b4a-51f8d0c8a80e")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -10593,7 +10634,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/37c5c06f-28d7-4345-b562-df77b744a88c")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.68 -0.5)
@@ -11645,7 +11686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fad4ebaf-3616-4b84-b73e-0d541cff6421")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -11825,7 +11866,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/dfacf5e9-9fac-4ce5-9795-687fc24f8a07")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.83 -5.21)
@@ -12439,7 +12480,7 @@
 		)
 		(path "/8df44930-ec80-4a7c-8d25-96848129b5ac")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -12824,7 +12865,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b24a160a-f320-4e07-b69c-de4c5ebf6878")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -13144,7 +13185,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0f732008-3ddd-4e0c-8a41-b74ea68f7116")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -13465,7 +13506,7 @@
 		)
 		(path "/c8b5a8cf-55ab-42fd-bcbc-79a127cf08e0")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -13850,7 +13891,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d9dccf7a-a389-4518-8d40-072b1602302f")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -14031,7 +14072,7 @@
 		)
 		(path "/5abbf59b-ec90-43ce-b642-231321d75a74")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -14417,7 +14458,7 @@
 		)
 		(path "/83a9db7a-9bff-4568-8690-23afc222c568")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -14802,7 +14843,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8942ffcd-2150-4444-aeb9-e0408b75407f")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -15123,7 +15164,7 @@
 		)
 		(path "/99477e19-ee6f-4437-8f14-4c3127f81a98")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -15508,7 +15549,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/31453266-fbf6-4391-b567-fadebf2e08c6")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -15689,7 +15730,7 @@
 		)
 		(path "/dda8d66b-ea75-414c-a78d-228f21dc989f")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -16074,7 +16115,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9fac4518-6ac7-43e0-9200-28355cc3ff7c")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -16394,7 +16435,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a95c51b4-06ac-4637-aee8-2b8470638881")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -16714,7 +16755,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d3a5ef60-9326-4b8d-8109-3f4e0f325156")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -17034,7 +17075,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/373e8f77-83cc-47b2-9e87-bf7fddaefa45")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -17343,7 +17384,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/28488955-2f6f-4aad-80d8-8735f8179d9e")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -17525,7 +17566,7 @@
 		)
 		(path "/18808347-7a7d-4bfb-b78d-62b9989d9e99")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.175 -1.125)
@@ -17812,7 +17853,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e5acb39b-74a9-477e-911b-445125e88001")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -18121,7 +18162,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/110d69cd-423d-44a7-8350-35dc3d4fd4b0")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -18452,7 +18493,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/325fe25b-d952-44d8-af10-87411233a3da")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -18632,7 +18673,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/483479c9-03fc-4d4d-bcde-f882819cd488")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -18813,7 +18854,7 @@
 		)
 		(path "/40c2a441-ed0a-4584-b8a6-c5f91daba3a9")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -19199,7 +19240,7 @@
 		)
 		(path "/a78b9ba6-ca13-4dcd-8354-2c1dbb73d887")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -19584,7 +19625,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/aa433103-548d-41d7-b4df-196a820d98fb")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -19905,7 +19946,7 @@
 		)
 		(path "/8af30358-f803-4158-bd35-8623d41a215a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -20290,7 +20331,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dab37db4-093a-4b3d-a281-2276608c5510")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -20470,7 +20511,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/03d85395-b49c-4500-b4a2-5767fe6e3c40")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.74 4.72)
@@ -20858,7 +20899,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/edd97973-31d9-4d61-b0cc-87d2096731d1")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -21180,7 +21221,7 @@
 		)
 		(path "/a5eb5ba4-7550-4112-bc85-da56787acefb")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.175 -1.125)
@@ -21467,7 +21508,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9fa2f6c2-afbd-4eae-9e5d-a519d6f42f7d")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -21787,7 +21828,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e70afff9-30d3-4cdb-b07a-457e80890a92")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -21968,7 +22009,7 @@
 		)
 		(path "/3d11dfaa-6c43-4560-a45a-e8572c135bb5")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -22354,7 +22395,7 @@
 		)
 		(path "/90b40f59-8bc7-49c7-a440-1a85a82b5235")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -22739,7 +22780,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b81775e-9225-45c0-97e2-f6013f99f797")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -22920,7 +22961,7 @@
 		)
 		(path "/4b766ef0-5fd7-4895-aba3-c3ad9337d4e2")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -23306,7 +23347,7 @@
 		)
 		(path "/baeb4d45-59c9-4479-8653-13c4a7ea19c4")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -23691,7 +23732,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7cb3592b-7101-4a76-818a-437a6e20f8cd")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -23872,7 +23913,7 @@
 		)
 		(path "/96325e9d-14a7-40fe-b3e5-25d8cbc6058c")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -24257,7 +24298,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0981cec7-1d60-4f61-ab5e-1534f4f52359")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -24437,7 +24478,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1f3f660e-94cf-4031-8dd8-b5f59e6ec85a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -24746,7 +24787,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e729954c-cd54-4d6e-8fa9-fa5b43d0d314")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -25055,7 +25096,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/22a8e788-9d7f-4b14-897d-f03932a56aed")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -25235,7 +25276,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eda9536-e150-4c87-b1b5-957e66cf17ce")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -25415,7 +25456,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9254f276-5d99-4033-8e4d-79b1dc987a53")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.177064 -1.71)
@@ -25596,7 +25637,7 @@
 		)
 		(path "/d4421ea4-d8f3-4f6d-94ff-ab0c20e74851")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -25981,7 +26022,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7ee2280a-f3f2-4002-8ae0-432f6d15f272")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -26301,7 +26342,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/980c50fe-0f34-4f53-a02c-3368031de6fa")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)
@@ -26676,7 +26717,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1260d20b-f12c-4f79-80ef-2a63daca5c8a")
 		(sheetname "/")
-		(sheetfile "maiConvert-IO4-hat.kicad_sch")
+		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.85 -2.75)

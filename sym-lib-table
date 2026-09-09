@@ -1,6 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "XL-5050RGBC")(type "KiCad")(uri "${KIPRJMOD}/libraries/XL5050RGBC.kicad_sym")(options "")(descr ""))
-  (lib (name "CMI126603D09")(type "KiCad")(uri "${KIPRJMOD}/libraries/CMI126603D09.kicad_sym")(options "")(descr ""))
   (lib (name "LED_RGB_Wurth")(type "KiCad")(uri "${KIPRJMOD}/libraries/LED_RGB_Wurth.kicad_sym")(options "")(descr "Wurth WL-SFTW RGB LEDs (DigiKey BOM)"))
 )

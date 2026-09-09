@@ -30,4 +30,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+# ...but the curated DigiKey BOM under bom/ is part of the project
+!bom/*.csv
 

@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "LED_RGB_Wurth")(type "KiCad")(uri "${KIPRJMOD}/libraries/LED_RGB_Wurth.pretty")(options "")(descr ""))
-  (lib (name "SameSky_Switch")(type "KiCad")(uri "${KIPRJMOD}/libraries/SameSky_Switch.pretty")(options "")(descr ""))
 )

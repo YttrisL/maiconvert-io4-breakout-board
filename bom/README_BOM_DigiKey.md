@@ -1,12 +1,12 @@
-# BOM DigiKey – maiConvert-IO4-hat (soudure manuelle)
+# BOM DigiKey – maiconvert-io4-breakout-board (soudure manuelle)
 
 PCB fabriquée nue chez JLCPCB, **composants soudés à la main**, achats **DigiKey**.
 
 - `digikey_upload.csv` .................... à téléverser sur DigiKey (carte complète, 1 ex.)
   Lignes en **référence fabricant** (MPN) — plus stable que le n° DigiKey.
-- `maiConvert-IO4-hat_BOM_DigiKey.csv` ..... BOM détaillée (empreintes, alternatives, notes)
+- `maiconvert-io4-breakout-board_BOM_DigiKey.csv` ..... BOM détaillée (empreintes, alternatives, notes)
 
-Source : `maiConvert-IO4-hat.kicad_sch` (kicad-cli 9.0), 2026-09-08.
+Source : `maiconvert-io4-breakout-board.kicad_sch` (kicad-cli 9.0), 2026-09-08.
 
 > **Schéma à jour.** Tous les composants portent `Manufacturer` / `Mfr. No.` /
 > `Digi-Key` (connecteurs, résistances, boutons, LED). Bibliothèques projet dans
