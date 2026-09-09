@@ -1,7 +1,7 @@
 Quantity,Part Number,Customer Reference
 12,311-1.00KFRCT-ND,"R22-R33 | 1k 1% 1/4W 1206 SMD thick film | Yageo RC1206FR-071KL | LED RGB ballast (~0.1W each, 40% derating)"
 16,118-CR2512-JW-510ELFCT-ND,"R1-R16 | 51R (~50R) 5% 1W 2512 SMD thick film | Bourns CR2512-JW-510ELF | lockout pull-down (0.5W = 50% derating, add copper on pads)"
-4,150352M173300,"D1 D2 D21 D22 | RGB LED 6-PLCC SMD | Wurth | tie 3 anodes common on new footprint (DK 732-11999-1-ND)"
+4,150352M173300,"D1 D2 D3 D4 | RGB LED 6-PLCC SMD | Wurth | tie 3 anodes common on new footprint (DK 732-11999-1-ND)"
 21,TS02-66-60-BK-100-LCR-D,"SW1-SW21 | tact 6mm THT SPST-NO, 100gf, 6mm plunger | Same Sky (DK 2223-TS02-66-60-BK-100-LCR-D-ND) | drop-in for Omron B3F-1000 footprint"
 16,B3B-XH-A,"J4-J19 | JST XH 1x03 vert THT (DK 455-2248-ND)"
 9,B2B-XH-A,"J20 J21 J27-J33 | JST XH 1x02 vert THT (DK 455-2247-ND)"
@@ -10,4 +10,8 @@ Quantity,Part Number,Customer Reference
 2,BHR-60-VUA,"J1 J3 | IDC box header 2x30 2.54mm vert THT | Adam Tech (DK 2057-BHR-60-VUA-ND)"
 1,BHR-20-VUA,"J2 | IDC box header 2x10 2.54mm vert THT | Adam Tech (DK 2057-BHR-20-VUA-ND)"
 1,1935161,"J22 | screw terminal 2P 5.08mm THT | Phoenix (DK 277-1667-ND)"
+1,0451015.MRL,"F1 | fuse 15A very-fast SMD Nano2 451 65V | Littelfuse (DK F2593CT-ND) | 12V input overcurrent protection J22"
+1,DMP3010LK3-13,"Q1 | P-MOSFET -30V -17A 8.5mOhm TO-252 DPAK | Diodes Inc (DK DMP3010LK3-13DICT-ND) | reverse-polarity ideal-diode, D->input S->rail G->GND"
+1,SMCJ15A-13-F,"D5 | TVS unidir 1500W 15V standoff clamp 24.4V SMC | Diodes Inc (DK SMCJ15A-FDICT-ND) | transient clamp on 12V rail, cathode->+12V after Q1"
+1,RC0805FR-07100KL,"R17 | 100k 1% 0805 SMD | Yageo (DK 311-100KCRCT-ND) | Q1 gate pull-down"
 16,S9337-ND,"SPARE - not on this PCB | 2-pos shunt jumper 2.54mm gold | Sullins QPC02SXGN-RC (stock for other uses)"
