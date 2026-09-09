@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+# Littelfuse NANO2 451/453 SMD fuse (2410) - F1 / Bel Fuse 0679L
+# Units: millimetre, origin = footprint centre, part on PCB.
+Transform {
+  translation 0.0000 0.0000 1.3450
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.800 0.720 0.580
+          specularColor 0.10 0.10 0.10
+          shininess 0.3
+        }
+      }
+      geometry Box { size 6.1000 2.6900 2.6900 }
+    }
+  ]
+}
+Transform {
+  translation -2.6100 0.0000 1.3500
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.740 0.750 0.780
+          specularColor 0.35 0.35 0.35
+          shininess 0.3
+        }
+      }
+      geometry Box { size 0.9200 2.7900 2.7400 }
+    }
+  ]
+}
+Transform {
+  translation 2.6100 0.0000 1.3500
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.740 0.750 0.780
+          specularColor 0.35 0.35 0.35
+          shininess 0.3
+        }
+      }
+      geometry Box { size 0.9200 2.7900 2.7400 }
+    }
+  ]
+}

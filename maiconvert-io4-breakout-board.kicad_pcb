@@ -43,7 +43,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Green")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -63,7 +63,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Green")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -72,7 +72,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "HASL lead-free")
+			(copper_finish "User defined")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -28806,7 +28806,7 @@
 			(uuid "fef474f7-7362-4b6d-81f6-c337dbc7c375")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+		(model "${KIPRJMOD}/libraries/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29066,6 +29066,18 @@
 		(layer "Edge.Cuts")
 		(uuid "7fbc1381-6d91-498a-bc91-f974ac003cc8")
 	)
+	(gr_text "maiConvert-IO4 : Breakout board"
+		(at 69 38.5 0)
+		(layer "F.SilkS")
+		(uuid "02a4205e-c12c-4933-8993-a539a087dd8d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Ω"
 		(at 136.54 94.04 0)
 		(layer "F.SilkS")
@@ -29254,6 +29266,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Irresponsibly made by Yttris - 2026"
+		(at 163 147 0)
+		(layer "F.SilkS")
+		(uuid "1af33f34-29a2-4ded-b80a-25d5885ae412")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
 			)
 			(justify left bottom)
 		)
