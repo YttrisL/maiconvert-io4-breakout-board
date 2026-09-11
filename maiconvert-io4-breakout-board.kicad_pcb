@@ -31094,7 +31094,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "For 1P 1-8, if no button is\nconnected, put a jumper on\npin 2 and 3, or tactile\nswitches will no work"
+	(gr_text "For 1P 1-8, if no button is\nconnected, put a jumper on\npin 2 and 3, or tactile\nswitches will not work"
 		(at 218.52 97.95 0)
 		(layer "F.SilkS")
 		(uuid "461cee03-cd90-46d1-9707-1372bf09a54f")
@@ -31757,7 +31757,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "For 2P 1-8, if no button is\nconnected, put a jumper on\npin 2 and 3, or tactile\nswitches will no work"
+	(gr_text "For 2P 1-8, if no button is\nconnected, put a jumper on\npin 2 and 3, or tactile\nswitches will not work"
 		(at 218.61 70.88 0)
 		(layer "F.SilkS")
 		(uuid "b44b77da-c616-4b37-8020-6f78fa23bdfa")
