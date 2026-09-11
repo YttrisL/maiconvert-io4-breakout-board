@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "maiConvert IO4 breakout board")
-		(date "2026-09-01")
+		(date "2026-09-11")
 		(rev "1.0")
 	)
 	(lib_symbols

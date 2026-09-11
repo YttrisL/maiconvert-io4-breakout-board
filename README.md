@@ -2,7 +2,7 @@
 
 This breakout board is designed to be a helper for maimai FiNALE cabinet conversion to DX, to help people configure an IO4 home setup with a custom controller, or to serve as a testing setup for an IO4.
 
-It can easily be installed between an IO4 and the cabinet harness thanks to its passthrough connector, supporting both FiNALE and genuine DX CN3 harnesses. If you do not have a harness to use, the board fans every I/O out to labelled JST-XH connectors and adds on-board test switches and RGB indicator LEDs.
+It can easily be installed between an IO4 and the cabinet harness thanks to its passthrough connector, supporting both FiNALE and genuine DX CN3 harnesses. If you do not have a harness to use, the board fans every I/O out to labeled JST-XH connectors and adds on-board test switches and RGB indicator LEDs.
 
 <p align="center">
   <a href="images/schematic.jpg"><img src="images/schematic.jpg" width="32%" alt="Schematic"></a>
@@ -95,11 +95,11 @@ On [digikey.com](https://www.digikey.com/) :
 - Review any out-of-stock lines, then add the list to your cart.
 - Order.
 
-## Licence
+## License
 
-This board is distributed under the `CERN Open Hardware Licence Version 2 - Strongly Reciprocal` licence. You are encouraged to share this page as much as you like and improve on the original design.
+This board is distributed under the `CERN Open Hardware Licence Version 2 - Strongly Reciprocal` license. You are encouraged to share this page as much as you like and improve on the original design.
 
-Please note that while the licence doesn't strictly forbid it, I ask you to be a decent human being and to not make a business out of selling this board to anyone. This is free and should remain so. That being said, feel free to resell extra copies you may have gotten with your fabrication (they usually make them by stack of 5) to other people, as long as you do not charge an extortionate extra for them.
+Please note that while the license doesn't strictly forbid it, I ask you to be a decent human being and to not make a business out of selling this board to anyone. This is free and should remain so. That being said, feel free to resell extra copies you may have gotten with your fabrication (they usually make them by stack of 5) to other people, as long as you do not charge an extortionate extra for them.
 
 ## Disclaimer
 
