@@ -10410,8 +10410,8 @@
 		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.175 -1.125)
-			(end -2.175 -0.575)
+			(start -2.2 -1.775)
+			(end -2.2 -1.225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10699,8 +10699,8 @@
 		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.175 -1.125)
-			(end -2.175 -0.575)
+			(start -2.2 -1.775)
+			(end -2.2 -1.225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17609,8 +17609,8 @@
 		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.175 -1.125)
-			(end -2.175 -0.575)
+			(start -2.175 -1.775)
+			(end -2.175 -1.225)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -21755,8 +21755,8 @@
 		(sheetfile "maiconvert-io4-breakout-board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.175 -1.125)
-			(end -2.175 -0.575)
+			(start -2.2 -1.775)
+			(end -2.2 -1.225)
 			(stroke
 				(width 0.12)
 				(type solid)
