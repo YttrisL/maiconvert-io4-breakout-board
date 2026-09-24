@@ -11,6 +11,13 @@ It can easily be installed between an IO4 and the cabinet harness thanks to its 
 </p>
 <p align="center"><sub>Schematic - PCB 3D render (front) - PCB 3D render (back) - click any image for the full-size version</sub></p>
 
+<p align="center">
+  <a href="images/assembled-top.jpg"><img src="images/assembled-top.jpg" width="32%" alt="Assembled board - top view"></a>
+  <a href="images/assembled-io4-side.jpg"><img src="images/assembled-io4-side.jpg" width="32%" alt="Assembled board - IO4 side"></a>
+  <a href="images/assembled-board-side.jpg"><img src="images/assembled-board-side.jpg" width="32%" alt="Assembled board - breakout side"></a>
+</p>
+<p align="center"><sub>Fabricated and assembled board, wired to an IO4 and a generic PSU - top view - IO4 side - breakout board side</sub></p>
+
 ## Installation
 
 The board requires 3 connections :
